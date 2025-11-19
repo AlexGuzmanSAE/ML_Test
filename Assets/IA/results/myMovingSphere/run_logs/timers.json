@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1763562243",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ALUMNOS\\Documents\\python-3.10.11-embed-amd64\\Scripts\\mlagents-learn sphere.yaml --run-id=myMovingSphere",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1763562281"
+    },
+    "total": 37.244745899995905,
+    "count": 1,
+    "self": 0.006256900000153109,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05427419999614358,
+            "count": 1,
+            "self": 0.05427419999614358
+        },
+        "TrainerController.start_learning": {
+            "total": 37.18421479999961,
+            "count": 1,
+            "self": 0.00043410001671873033,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 37.18377289999626,
+                    "count": 1,
+                    "self": 37.18377289999626
+                },
+                "trainer_threads": {
+                    "total": 7.999915396794677e-07,
+                    "count": 1,
+                    "self": 7.999915396794677e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 6.999995093792677e-06,
+                    "count": 1,
+                    "self": 6.999995093792677e-06
+                }
+            }
+        }
+    }
+}
