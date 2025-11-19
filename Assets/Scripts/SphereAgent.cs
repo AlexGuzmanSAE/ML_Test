@@ -45,6 +45,7 @@ public class SphereAgent : Agent
         // agent velocity
         sensor.AddObservation(rBody.linearVelocity.x / 5);
         sensor.AddObservation(rBody.linearVelocity.z / 5);
+        
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
